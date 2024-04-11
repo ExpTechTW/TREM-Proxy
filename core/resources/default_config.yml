@@ -1,0 +1,37 @@
+SQL:
+  enable: false
+  address: 127.0.0.1
+  port: 3306
+  user: admin
+  password: admin
+  database: example
+  table: example
+  new_table: example
+
+discord_webhook:
+  enable: false
+  # Discord Webhook URL
+  url: http://example/webhook
+  # "DEBUG" , "INFO" , "WARN" or "ERROR"
+  log_level: "WARN"
+
+# "once" or "loop"
+work_mode: once
+
+# This only working when [work_mode] setting to "loop"
+# The unit is seconds
+request_delay: 1
+
+# Minimum is 10
+# Do not set a value over 100
+fetch_data_length: 10
+
+# "local" or "sql"
+# local => Compare local log files to confirm whether data is written to the sql database
+# sql => Query sql every time to confirm whether data is written to the sql database
+query_mode: local
+
+# "DEBUG" , "INFO" , "WARN" or "ERROR"
+log_level: "DEBUG"
+
+log_save_days: 7
