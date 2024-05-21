@@ -1,6 +1,2 @@
-*.pyc
-config.yml
-CWA-Report-SQL/
-logs/
-query.tmp
-query_new.tmp
+node_modules/
+dist/index.js

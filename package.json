@@ -1,0 +1,20 @@
+{
+  "name": "vwdot-server",
+  "version": "1.0.0",
+  "description": "<img alt=\"logo\" src=\"https://github.com/P-WAVER/.github/assets/44525760/f1d83d14-eb1c-4f97-a2f5-102005005c3c\" style=\"width: 100px; height: 100px;\" />",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.12.12",
+    "@typescript-eslint/eslint-plugin": "^7.10.0",
+    "@typescript-eslint/parser": "^7.10.0",
+    "eslint": "^8.57.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
